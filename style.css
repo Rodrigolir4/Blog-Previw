@@ -1,0 +1,21 @@
+body{
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#container{
+    background-color: hsl(0, 0%, 100%);
+    padding: 10px;
+}
+
+#paragrafo-01{
+    background-color: hsl(47, 88%, 63%);
+    width: 12%;
+    padding: 5px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+}
