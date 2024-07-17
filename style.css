@@ -1,21 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
 body{
     background-color: hsl(47, 88%, 63%);
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 100vh;
+    margin: 10% 0;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
 }
 #container{
     background-color: hsl(0, 0%, 100%);
-    padding: 10px;
+    padding: 20px;
+    border-radius: 20px;
+    width: 20%;
+    border: 1px solid black;
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
 }
-
+#imagem{
+    justify-self: center;
+}
+#texto-com-backgound{
+   display: flex;
+   justify-content: flex-start; 
+}
 #paragrafo-01{
     background-color: hsl(47, 88%, 63%);
-    width: 12%;
-    padding: 5px;
+    padding: 2% 5%;
     border-radius: 5px;
-    text-align: center;
     font-weight: bold;
     font-size: 14px;
 }
+#paragrafo-02{
+    margin: -1% 0;
+}
+h1{
+    
+}
+#paragrafo-03{
+    color: hsl(0, 0%, 50%);
+}
+#imagem-Texto{
+    display: flex;
+    align-items: center;
+}
+img{
+    width: 15%;
+    height: 15%;
+    margin-right: 3%;
+}
+
