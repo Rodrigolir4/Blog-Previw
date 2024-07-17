@@ -37,9 +37,6 @@ body{
 #paragrafo-02{
     margin: -1% 0;
 }
-h1{
-    
-}
 #paragrafo-03{
     color: hsl(0, 0%, 50%);
 }
@@ -52,4 +49,9 @@ img{
     height: 15%;
     margin-right: 3%;
 }
-
+@media (width <= 450px){
+    #container{
+        width: 70%;
+    }
+    
+}
