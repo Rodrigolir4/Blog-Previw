@@ -39,6 +39,7 @@ body{
 }
 #paragrafo-03{
     color: hsl(0, 0%, 50%);
+    text-align: justify;
 }
 #imagem-Texto{
     display: flex;
